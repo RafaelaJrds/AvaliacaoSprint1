@@ -121,7 +121,7 @@ git push -u origin nomedabranch
 ---
 
 
-    ### Principais comandos utilizados na avaliação:
+### Principais comandos utilizados na avaliação:
 
 -  `git init`: inicia um repositório em uma pasta local;
 
@@ -158,7 +158,7 @@ git push -u origin nomedabranch
     - **Git e GitHub**: Estratégias de ramificações, conflitos e Pull Requests
     - **HTTP**: Entendendo a Web por debaixo dos panos
     - **Segurança de redes**: Conheça as vulnerabilidades de servidores e clientes
-        -Disponíveis no site: https://www.alura.com.br/ 
+        - Disponíveis no site: https://www.alura.com.br/ 
 
 - **Curso de introdução à Cibersegurança da Cisco Networking Academy**
     - Disponível no site: https://www.netacad.com/pt-br/courses/cybersecurity/introduction-cybersecurity 
@@ -189,7 +189,7 @@ git push -u origin nomedabranch
    - Disponível no site: https://medium.com/linkapi-solutions/conventional-commits-pattern-3778d1a1e657
 
 - **Podemos criar um branch vazio no git?**
-    Disponível no site: https://comozed.com/podemos-criar-um-branch-vazio-no-git 
+    - Disponível no site: https://comozed.com/podemos-criar-um-branch-vazio-no-git 
 
 - **Como criar uma Branch limpa**
     - Disponível no site: https://pt.stackoverflow.com/questions/86644/como-criar-um-branch-limpo-sem-levar-o-hist%C3%B3rico-do-master-branch 
@@ -197,7 +197,7 @@ git push -u origin nomedabranch
 - **Branch Orphan**
     - Disponível no site: https://shannoncrabill.com/blog/git-orphan-branches/
 
--**Orphan branch**
+- **Orphan branch**
     - Disponível no site: https://stackoverflow.com/questions/13969050/creating-a-new-empty-branch-for-a-new-project 
 
 - **Git versão 2.23**
