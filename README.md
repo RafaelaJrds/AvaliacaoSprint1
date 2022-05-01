@@ -133,16 +133,17 @@ git push -u origin nomedabranch
 
 - `git checkout`: Cria nova Branch, alterne entre os ramos ou restaure os arquivos da árvore de trabalho;
 
-- `git checkout --orphan` : cria uma Branch independente da principal permitindo que ela seja vazia;
+- `git switch --orphan` : cria uma Branch independente da principal permitindo que ela seja vazia; A partir da versão 2.23.0 do git, o comando `git checkout` pode ser substituído pelo comando `git switch`;
 
 - `git branch`: Lista, cria ou exclui os ramos;
 
-- `git remote` - Gerencie o conjunto de repositórios ("remotos") cujos ramos você monitora, quando usado `git remote add`, é adicionado um ramo remoto;
+- `git remote`: Gerencie o conjunto de repositórios ("remotos") cujos ramos você monitora, quando usado `git remote add`, é adicionado um ramo remoto;
 
 - `git push`: Atualiza as refs remotas utilizando as refs locais, enquanto envia os objetos necessários para que seja concluída as refs informadas;
 
-- `git log` - Exibe os registros log do commit
+- `git log`: Exibe os registros log do commit;
 
+- `git commit --allow-empty`: Permite cirar um commit vazio na branch orphan;
 
 
 ---
@@ -160,7 +161,7 @@ git push -u origin nomedabranch
         -Disponíveis no site: https://www.alura.com.br/ 
 
 - **Curso de introdução à Cibersegurança da Cisco Networking Academy**
-    -Disponível no site: https://www.netacad.com/pt-br/courses/cybersecurity/introduction-cybersecurity 
+    - Disponível no site: https://www.netacad.com/pt-br/courses/cybersecurity/introduction-cybersecurity 
 
 - **Estimativa ágil**: 
     - Disponível no site: https://itforum.com.br/noticias/como-fazer-uma-estimativa-agile-do-jeito-certo/
@@ -172,7 +173,7 @@ git push -u origin nomedabranch
     - Disponível: https://www.alura.com.br/artigos/o-que-e-git-github
 
 - **Importância das Branchs**: 
-    -Disponível no site: https://pt.stackoverflow.com/questions/275695/qual-a-importancia-do-branch-no-versionamento#:~:text=Branches%20separados%20ajudam%20na%20estabilidade,master%20local%20e%20o%20remoto.
+    - Disponível no site: https://pt.stackoverflow.com/questions/275695/qual-a-importancia-do-branch-no-versionamento#:~:text=Branches%20separados%20ajudam%20na%20estabilidade,master%20local%20e%20o%20remoto.
 
 - **Documentação do Git**
     - Disponível no site: https://git-scm.com/docs/git/pt_BR 
@@ -181,7 +182,7 @@ git push -u origin nomedabranch
     - Disponível no site: https://www.treinaweb.com.br/blog/comandos-do-git-que-voce-precisa-conhecer-parte-1
 
 - **Comandos do Git que você precisa conhecer** - Parte 2
-    -Disponível no site: https://www.treinaweb.com.br/blog/comandos-do-git-que-voce-precisa-conhecer-parte-2-repositorios-remotos
+    - Disponível no site: https://www.treinaweb.com.br/blog/comandos-do-git-que-voce-precisa-conhecer-parte-2-repositorios-remotos
 
 - **Como escrever uma boa mensagem de commit**
    - Disponível no site: https://devporai.com.br/como-escrever-uma-boa-mensagem-de-commit/#:~:text=Uma%20boa%20mensagem%20de%20commit%20deve%20conter%20a%20descri%C3%A7%C3%A3o%20do,voc%C3%AA%20n%C3%A3o%20trabalha%20com%20frequ%C3%AAncia.
@@ -196,14 +197,23 @@ git push -u origin nomedabranch
 - **Branch Orphan**
     - Disponível no site: https://shannoncrabill.com/blog/git-orphan-branches/
 
+-**Orphan branch**
+    - Disponível no site: https://stackoverflow.com/questions/13969050/creating-a-new-empty-branch-for-a-new-project 
+
+- **Git versão 2.23**
+    - Disponível no site: https://github.blog/2019-08-16-highlights-from-git-2-23/
+
+- **Git: Os novos comandos git restore e git switch**
+    - Disponível no site: https://www.alura.com.br/artigos/git-os-novos-comandos-git-restore-e-git-switch
+
 - **Repositórios remotos**
     - Disponível no site: https://docs.github.com/pt/get-started/getting-started-with-git/about-remote-repositories
 
 - **Gerenciar branches**
-    -Disponível no site: https://docs.github.com/pt/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches
+    - Disponível no site: https://docs.github.com/pt/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches
 
 - **Criando e enviando arquivos para seu repositório no GitHub**
-    -Disponível no site: http://gabsferreira.com/criando-e-enviando-arquivos-para-seu-repositorio-no-github/#:~:text=Criando%20o%20reposit%C3%B3rio,s%C3%B3%20que%20ainda%20est%C3%A1%20vazio. 
+    - Disponível no site: http://gabsferreira.com/criando-e-enviando-arquivos-para-seu-repositorio-no-github/#:~:text=Criando%20o%20reposit%C3%B3rio,s%C3%B3%20que%20ainda%20est%C3%A1%20vazio. 
 
 
 
